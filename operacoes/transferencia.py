@@ -12,7 +12,3 @@ def transferir(contaOri: int, contaDes: int, valor: float) -> None:
             print('Saldo Insuficiente! ')
     else:
         print("Uma ou mais contas não encontradas! ")
-
-print(banco)
-transferir(1, 2, 50)
-print(banco)

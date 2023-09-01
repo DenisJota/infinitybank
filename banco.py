@@ -15,7 +15,7 @@ def adicionarConta(nome: str, saldo: float) -> None:
     conta = {
         "conta": conta_atual,
         "cliente": nome,
-        "saldo": saldo
+        "Saldo": saldo
     }
     banco.append(conta)
     print('Conta cadastrada com sucesso!')

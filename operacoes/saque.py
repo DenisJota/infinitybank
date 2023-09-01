@@ -1,5 +1,6 @@
 from banco import obterConta
 
+
 def sacar(conta: int, valor: float) -> None:
     cliente = obterConta(conta)
     if cliente:

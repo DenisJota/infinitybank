@@ -1,4 +1,4 @@
-from banco import obterConta, banco
+from banco import obterConta
 
 
 def consultarSaldo(conta: int) -> None:
